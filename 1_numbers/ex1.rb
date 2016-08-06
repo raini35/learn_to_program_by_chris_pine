@@ -19,3 +19,8 @@ life_in_years = 90
 weeks_per_year = 52
 amount_of_chocolate_during_life = chocolate_per_week * weeks_per_year * life_in_years 
 puts "In my life I want to consume #{amount_of_chocolate_during_life} bars of chocolate."
+
+life_in_seconds = 1246000000
+age_in_years = life_in_seconds / seconds_per_minute / minutes_per_hour / hours_per_day / days_per_year
+
+puts "If you are #{life_in_seconds} seconds old, you are #{age_in_years} old." 

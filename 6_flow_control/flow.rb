@@ -10,25 +10,9 @@ puts 'Hello, and welcome to 7th grade English.'
 puts 'My name is Mrs.Gabbard. And your name is...?'
 name = gets.chomp 
 
-if name == name.capitalize 
-	puts 'Please take a seat, ' + name + '.'
-else 
-	puts name + '? You mean ' + name.capitalize + ', right?'
-	puts 'Don\'t you even know how to spell your name??' 
-	reply = gets.chomp 
-	
-	
+puts 'Hello, what\'s your name?'
+name = gets.chomp 
+puts 'Hello, ' + name + ',' 
+if (name == 'Chris' or name == 'Katy')
+	puts 'What a lovely name!' 
 end 
-
-command = '' 
-
-while command != 'bye' 
-	command = gets.chomp 
-
-	if command != 'bye'
-		puts command 
-	end 
-
-end 
-
-puts 'Come again soon!'
